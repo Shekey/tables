@@ -1,0 +1,85 @@
+.footer {
+  background-image: url("/assets/img/bg-mask.png");
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .row {
+    width: 544px;
+  }
+
+  .headline {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+
+  .description {
+    display: block;
+    color: #a3aab1;
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 43px;
+    padding-right: 15px;
+
+    a {
+      color: #0ba1e2;
+    }
+
+    &.desc-bottom {
+      display: block;
+      margin-left: 12px;
+      padding-bottom: 0;
+      padding-right: 0;
+    }
+  }
+
+  .text-wrap {
+    padding-top: 63px;
+    margin-bottom: 33px;
+
+    p {
+      margin-bottom: 0;
+
+      a {
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .links-wrap {
+    padding-top: 64px;
+    margin-bottom: 30px;
+
+    .link {
+      display: block;
+      color: #0ba1e2;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      margin-left: 55px;
+      letter-spacing: 0.36px;
+      margin-bottom: 10px;
+
+      &.link-extra {
+        margin-left: 60px;
+      }
+    }
+  }
+
+  .img-wrap {
+    margin-left: 12px;
+    margin-bottom: 45px;
+
+    img {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+}
