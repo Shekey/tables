@@ -1,6 +1,8 @@
 .header {
   background: white;
-  width: 100%;
+  width: 720px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 
   .wrapper-inner {
     padding: 0;
@@ -13,11 +15,11 @@
 
   .t-r {
     table {
-      width: auto !important;
-      border-bottom-width: 3px;
-      border-bottom-style: solid;
-      border-bottom-color: #0BA1E2;
+      &:not(&.spacer){
+        width: auto !important;
+       
     }
+  }
   }
 
   .navigate {
@@ -53,9 +55,11 @@
       font-size:18px;
       line-height:24px;
       color: #4B6478;
-    
       margin-bottom: -14px;
       padding-bottom: 10px;
+      border-bottom-width: 3px;
+      border-bottom-style: solid;
+      border-bottom-color: #0BA1E2;
     }
   }
 
