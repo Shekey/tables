@@ -8,13 +8,13 @@
     line-height: 24px;
     margin-bottom: 15px;
   }
+  a {}
 
   .description {
-    display: block;
-    color: #a3aab1;
     font-size: 12px;
-    line-height: 16px;
-    padding-right: 15px;
+      line-height: 16px;
+      padding-right: 15px;
+
 
     &.desc-bottom {
       color: #a3aab1;
@@ -22,6 +22,13 @@
       margin-left: 12px;
       padding-bottom: 0;
       padding-right: 0;
+    }
+
+    
+    p {
+      font-size: 12px;
+      line-height: 16px;
+      padding-right: 15px;
     }
   }
 
@@ -42,11 +49,12 @@
 
   .links-wrap {
     padding-top: 64px;
+    padding-left: 55px;
+    margin-bottom: 30px;
 
     .link {
-      margin-left: 55px;
       letter-spacing: 0.36px;
-      margin-bottom: 10px;
+      margin-bottom: 0;
 
       a {
         font-weight: 600;
@@ -55,12 +63,13 @@
       }
 
       &.link-extra {
-        margin-left: 60px;
+        padding-left: 5px;
       }
     }
   }
 
   .img-wrap {
+    padding-left: 12px;
     margin-bottom: 45px;
 
     img {
