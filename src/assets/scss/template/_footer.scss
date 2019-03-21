@@ -1,19 +1,6 @@
 .footer {
   background-color: #4b6478;
 
-  a {
-    color: #ffff !important;
-    text-decoration: none;
-  }
-  a:visited {
-    color: #00b4eb !important;
-    text-decoration: none;
-  }
-  .ii a[href] {
-    color: #00b4eb !important;
-    text-decoration: none;
-  }
-
   .headline {
     color: #ffffff;
     font-weight: 600;
@@ -29,14 +16,11 @@
     line-height: 16px;
     padding-right: 15px;
 
-    a {
-      color: #0ba1e2;
-    }
-
     &.desc-bottom {
       color: #a3aab1;
       display: block;
       margin-left: 12px;
+      padding-bottom: 0;
       padding-right: 0;
     }
   }
@@ -46,7 +30,6 @@
 
     p {
       margin-bottom: 0;
-      color: #ffffff;
       font-size: 16px;
       line-height: 24px;
 
@@ -59,10 +42,8 @@
 
   .links-wrap {
     padding-top: 64px;
-    margin-bottom: 30px;
 
     .link {
-      color: #0ba1e2;
       margin-left: 55px;
       letter-spacing: 0.36px;
       margin-bottom: 10px;
@@ -80,7 +61,6 @@
   }
 
   .img-wrap {
-    margin-left: 12px;
     margin-bottom: 45px;
 
     img {
