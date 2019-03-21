@@ -1,15 +1,5 @@
 .footer {
-  // background-image: url("/assets/img/bg-mask.png");
-  // width: 100%;
-  // height: auto;
-  // background-size: cover;
-  // background-position: center;
-  // background-repeat: no-repeat;
   background-color: #4b6478;
-
-  .row {
-    width: 544px;
-  }
 
   .headline {
     color: #ffffff;
@@ -24,12 +14,7 @@
     color: #a3aab1;
     font-size: 12px;
     line-height: 16px;
-    padding-bottom: 43px;
     padding-right: 15px;
-
-    a {
-      color: #0ba1e2;
-    }
 
     &.desc-bottom {
       color: #a3aab1;
@@ -41,17 +26,14 @@
   }
 
   .text-wrap {
-    padding-top: 63px;
     margin-bottom: 33px;
 
     p {
       margin-bottom: 0;
-      color: #ffffff;
       font-size: 16px;
       line-height: 24px;
 
       a {
-        color: #ffffff;
         font-size: 16px;
         line-height: 24px;
       }
@@ -60,16 +42,13 @@
 
   .links-wrap {
     padding-top: 64px;
-    margin-bottom: 30px;
 
     .link {
-      color: #0ba1e2;
       margin-left: 55px;
       letter-spacing: 0.36px;
       margin-bottom: 10px;
 
       a {
-        color: #0ba1e2;
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
@@ -82,7 +61,6 @@
   }
 
   .img-wrap {
-    margin-left: 12px;
     margin-bottom: 45px;
 
     img {
