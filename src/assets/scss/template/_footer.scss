@@ -1,20 +1,17 @@
 .footer {
-  // background-image: url("/assets/img/bg-mask.png");
-  // width: 100%;
-  // height: auto;
-  // background-size: cover;
-  // background-position: center;
-  // background-repeat: no-repeat;
   background-color: #4b6478;
 
   a {
-    color: #ffffff !important;
+    color: #ffff !important;
+    text-decoration: none;
   }
   a:visited {
-    color: #ffffff !important;
+    color: #00b4eb !important;
+    text-decoration: none;
   }
   .ii a[href] {
-    color: #ffffff !important;
+    color: #00b4eb !important;
+    text-decoration: none;
   }
 
   .headline {
@@ -69,6 +66,12 @@
       margin-left: 55px;
       letter-spacing: 0.36px;
       margin-bottom: 10px;
+
+      a {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+      }
 
       &.link-extra {
         margin-left: 60px;
