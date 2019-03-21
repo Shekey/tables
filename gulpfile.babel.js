@@ -12,7 +12,6 @@ import path     from 'path';
 import merge    from 'merge-stream';
 import beep     from 'beepbeep';
 import colors   from 'colors';
-import gulpMinifyCssNames   from 'gulp-minify-css-names';
 
 const $ = plugins();
 
@@ -95,7 +94,6 @@ function images() {
 function inline() {
   return gulp.src('dist/**/*.html')
     .pipe($.if(PRODUCTION, inliner('dist/css/app.css')))
-     .pipe(gulpMinifyCssNames())
     .pipe(gulp.dest('dist'));
 }
 
