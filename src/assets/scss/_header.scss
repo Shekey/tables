@@ -1,42 +1,65 @@
 .header {
-  .navigate {
-    display:inline-block;
-    margin-top:13px;
-    margin-bottom:19px;
-    margin-right: 12px;
-  }
-  th {
+  background: white;
+  width: 100%;
 
+  .wrapper-inner {
+    padding: 0;
+  }
+
+  img {
+    width: 155px;
+    height: 49px;
+  }
+
+  .t-r {
+    table {
+      width: auto !important;
+      border-bottom-width: 3px;
+      border-bottom-style: solid;
+      border-bottom-color: #0BA1E2;
+    }
+  }
+
+  .navigate {
+    margin-top:13px;
+    margin-right: 12px;
+    margin-bottom: 0;
+    padding: 0;
+    color:#A3AAB1;
+    font-size:12px;
+    line-height:16px;
+    text-align: right;
+  }
+
+  th {
     &.last {
       vertical-align: bottom;
     }
 
     th {
-      padding-bottom: 25px;
-      padding-top: 0;
+      margin-bottom: 25px;
+      margin-top: 0;
     }
   }
 
-  .text-right {
-    font-size:18px;
-    line-height:24px;
-    color: #4B6478;
-    margin-bottom: 0;
-    position: relative;
-    display: inline-block;
-    float: right;
+  td {
+    text-align: right;
   }
 
-  .line {
-    position: absolute;
-    right: 0;
-    bottom: -10px;
-    width: 100%;
-    height: 3px;
-    background: $primary-color;
+  th{
+    text-align: right;
+
+    .text-right {
+      font-size:18px;
+      line-height:24px;
+      color: #4B6478;
+    
+      margin-bottom: -14px;
+      padding-bottom: 10px;
+    }
   }
 
   &.columns {
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
