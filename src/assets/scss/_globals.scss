@@ -3,4 +3,11 @@ table {
     width: 576px;
     margin: 0 auto;
   }
+
+  &.body {
+    center {
+      width: 720px !important;
+      margin: 0 auto;
+    }
+  }
 }
