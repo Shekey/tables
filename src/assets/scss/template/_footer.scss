@@ -8,13 +8,16 @@
     line-height: 24px;
     margin-bottom: 15px;
   }
-  a {}
+
+  // .img-col {
+  //   &>table {
+  //     width: auto !important;
+  //   }
+  // }
 
   .description {
     font-size: 12px;
-      line-height: 16px;
-      padding-right: 15px;
-
+    line-height: 16px;
 
     &.desc-bottom {
       color: #a3aab1;
@@ -24,7 +27,7 @@
       padding-right: 0;
     }
 
-    
+
     p {
       font-size: 12px;
       line-height: 16px;
@@ -33,10 +36,8 @@
   }
 
   .text-wrap {
-    margin-bottom: 33px;
-
-    p {
-      margin-bottom: 0;
+    .subline {
+      margin-bottom: 3px;
       font-size: 16px;
       line-height: 24px;
 
@@ -48,33 +49,24 @@
   }
 
   .links-wrap {
-    padding-top: 64px;
-    padding-left: 55px;
     margin-bottom: 30px;
+    text-align: center;
+
+    .link-wrap {
+      margin-bottom: 5px;
+
+      &.link-extra {
+        margin-right: 10px;
+      }
+    }
 
     .link {
       letter-spacing: 0.36px;
-      margin-bottom: 0;
-
       a {
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
       }
-
-      &.link-extra {
-        padding-left: 5px;
-      }
-    }
-  }
-
-  .img-wrap {
-    padding-left: 12px;
-    margin-bottom: 45px;
-
-    img {
-      display: inline-block;
-      margin-right: 10px;
     }
   }
 }
