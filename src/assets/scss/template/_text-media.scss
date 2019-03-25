@@ -8,37 +8,37 @@
     color: #000000;
   }
 
-  img {
-    width: 264px;
-    height: 264px;
-  }
-  
-  
   .arrow-right {
-    width: 14px;
-    height: 13px;
     display: inline;
     text-align: left;
   }
+  
   .box-wrapper {
-    // margin: auto;
-    // width: 194px;
-    
+    //komentar
+   
+  }
+  .article-img {
+    height: auto;
+    width: 100%;
   }
 
   .red-box {
     padding-top: 16px;
     padding-bottom: 16px;
-    padding-right: 24px;
+    padding-right: 24px; 
     padding-left: 24px;
+    text-align: 'center';
     background-color: #ff5f58;
     color: #ffffff;
     font-size: 14px;
     letter-spacing: 2px;
     line-height: 24px;
     text-transform: uppercase;
-    // text-align: center;
+    text-align: center;
+  
   }
+
+  
   .content {
     padding-right: 18px;
     padding-left: 18px;
@@ -63,9 +63,4 @@
     font-size: 16px;
     line-height: 24px;
   }
-
- 
-
-
- 
 }
