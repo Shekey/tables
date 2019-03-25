@@ -17,9 +17,8 @@
     table {
       &:not(&.spacer){
         width: auto !important;
-       
+      }
     }
-  }
   }
 
   .navigate {
@@ -44,18 +43,17 @@
     }
   }
 
-  td {
-    text-align: right;
+  .container {
+    td {
+      text-align: right;
+    }
   }
 
   th{
-    text-align: right;
-
     .text-right {
       font-size:18px;
       line-height:24px;
       color: #4B6478;
-      margin-bottom: -14px;
       padding-bottom: 10px;
       border-bottom-width: 3px;
       border-bottom-style: solid;
