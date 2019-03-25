@@ -151,14 +151,15 @@ For a full list of Litmus' supported test clients(applications) see their [clien
         }
   </code>
   - Add image full width 
+  <code>
     <wrapper bgcolor="#fff">
       <div align="center" width="720">
         <img src="https://placehold.it/720x280">
       </div>
     </wrapper>
-  
+  </code>
     Imporant thing for dpi. Your head tag and html needs to be like this
-<code>
+<p>
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
       <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" style="background:#fff!important" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
     <head>
@@ -168,4 +169,4 @@ For a full list of Litmus' supported test clients(applications) see their [clien
     <meta name="viewport" content="width=device-width">
     <title>{{subject}}</title>
   </head>
-</code>
+<p>
