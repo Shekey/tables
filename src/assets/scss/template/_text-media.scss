@@ -1,5 +1,21 @@
 .text-media {
   background-color: #f6f8f9;
+
+  .first {
+    padding-left: 0;
+    padding-right: 12px;
+  }
+
+  .last {
+    padding-right: 0;
+    padding-left: 12px;
+  }
+  .columns {
+    table {
+    background-color: #ffffff;
+
+    }
+  }
   
   .headline {
     text-align: center;
@@ -14,7 +30,8 @@
   }
   
   .box-wrapper {
-    //komentar
+    width: 264px;
+
    
   }
   .article-img {
@@ -23,8 +40,8 @@
   }
 
   .red-box {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     padding-right: 24px; 
     padding-left: 24px;
     text-align: 'center';
@@ -40,8 +57,12 @@
 
   
   .content {
-    padding-right: 18px;
-    padding-left: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+    &.down {
+      padding-bottom: 14px;
+
+    }
   }
 
   .box-wrapper-title {
@@ -49,6 +70,7 @@
     font-size: 24px;
     line-height: 32px;
     hyphens:none;
+    margin-bottom: 7px;
   }
   
   .link {
@@ -56,11 +78,13 @@
     font-size: 16px;
     letter-spacing: 0.36px;
     line-height: 24px;
+    padding-left: 14px;
   }
 
   .text-plain {
     color: #000000;
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 11px;
   }
 }
