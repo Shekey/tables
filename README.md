@@ -1,17 +1,3 @@
-# Foundation for Emails Template
-
-[![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
-
-**Please open all issues with this template on the main [Foundation for Emails](http://github.com/zurb/foundation-emails/issues) repo.**
-
-This is the official starter project for [Foundation for Emails](http://foundation.zurb.com/emails), a framework for creating responsive HTML devices that work in any email client. It has a Gulp-powered build system with these features:
-
-- Handlebars HTML templates with [Panini](http://github.com/zurb/panini)
-- Simplified HTML email syntax with [Inky](http://github.com/zurb/inky)
-- Sass compilation
-- Image compression
-- Built-in BrowserSync server
-- Full email inlining process
 
 ## Installation
 
@@ -128,3 +114,59 @@ For a full list of Litmus' supported test clients(applications) see their [clien
 
 **Caution:** AWS Service Fees will result, however, are usually very low do to minimal traffic. Use at your own discretion.
 
+#Snippets for creating components
+
+  - Create inline-block element with folowing code
+   ```html
+     <table style="width: auto;" >
+        <tr>
+            <td  class="red-box">
+                <div>familie</div>
+            </td>
+        </tr>
+    </table>
+  ```
+ - Add margin bottom without spacer
+ ```html
+   <table>
+    <tr height="33">
+        <td></td>
+    </tr>
+    </table>
+```
+  - Add link element with arrow right 
+ ```html
+    <div class="link">
+      <a href="">Weiterlesen
+          <img class="arrow-right" src="https://placehold.it/15x13" alt="">
+      <a>
+    </div>
+    
+    CSS FOR LINK 
+        .link {
+          color: #0ba1e2;
+          font-size: 16px;
+          letter-spacing: 0.36px;
+          line-height: 24px;
+        }
+  ```
+  - Add image full width 
+  ```html
+    <wrapper bgcolor="#fff">
+      <div align="center" width="720">
+        <img src="https://placehold.it/720x280">
+      </div>
+    </wrapper>
+  ```
+    Imporant thing for dpi. Your head tag and html needs to be like this
+ ```html
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" style="background:#fff!important" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings></xml><![endif]-->
+   <link rel="stylesheet" type="text/css" href="{{root}}css/app.css">
+    <meta name="viewport" content="width=device-width">
+    <title>{{subject}}</title>
+  </head>
+```
