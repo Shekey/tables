@@ -1,6 +1,6 @@
 table {
   &.row {
-    width: 576px;
+    width: 552px;
     margin: 0 auto;
   }
 
@@ -10,4 +10,11 @@ table {
       margin: 0 auto;
     }
   }
+}
+
+.f-w {
+  display: block;
+  width: inherit;  /* Make images fill their parent's space. Solves IE8. */
+  max-width: auto; /* Add !important if needed. */
+  height: auto;
 }
