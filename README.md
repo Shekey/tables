@@ -117,6 +117,7 @@ For a full list of Litmus' supported test clients(applications) see their [clien
 #Snippets for creating components
 
   - Create inline-block element with folowing code
+  <code>
      <table style="width: auto;" >
         <tr>
             <td  class="red-box">
@@ -124,14 +125,17 @@ For a full list of Litmus' supported test clients(applications) see their [clien
             </td>
         </tr>
     </table>
- 
+ </code>
  - Add margin bottom without spacer
+ <code>
    <table>
     <tr height="33">
         <td></td>
     </tr>
     </table>
+ </code>
   - Add link element with arrow right 
+  <code>
     <div class="link">
       <a href="">Weiterlesen
           <img class="arrow-right" src="https://placehold.it/15x13" alt="">
@@ -145,6 +149,7 @@ For a full list of Litmus' supported test clients(applications) see their [clien
           letter-spacing: 0.36px;
           line-height: 24px;
         }
+  </code>
   - Add image full width 
     <wrapper bgcolor="#fff">
       <div align="center" width="720">
@@ -153,6 +158,7 @@ For a full list of Litmus' supported test clients(applications) see their [clien
     </wrapper>
   
     Imporant thing for dpi. Your head tag and html needs to be like this
+<code>
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
       <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" style="background:#fff!important" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
     <head>
@@ -162,3 +168,4 @@ For a full list of Litmus' supported test clients(applications) see their [clien
     <meta name="viewport" content="width=device-width">
     <title>{{subject}}</title>
   </head>
+</code>
