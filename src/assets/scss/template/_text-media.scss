@@ -25,8 +25,10 @@
   }
 
   .arrow-right {
-    display: inline;
+    display: inline-block;
     text-align: left;
+    margin-left: 6px;
+    margin-bottom:-2px;
   }
   
   .box-wrapper {
@@ -79,6 +81,7 @@
     letter-spacing: 0.36px;
     line-height: 24px;
     padding-left: 14px;
+    font-weight: 600;
   }
 
   .text-plain {
