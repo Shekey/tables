@@ -2,13 +2,21 @@
   background-color: #f6f8f9;
 
   .first {
-    padding-left: 0;
-    padding-right: 12px;
+    padding-left: 0 !important; 
+    padding-right: 0 !important; 
+
+    th {
+      padding-right: 12px;
+    }
   }
 
   .last {
-    padding-right: 0;
-    padding-left: 12px;
+    padding-left: 0 !important; 
+    padding-right: 0 !important; 
+
+    th {
+      padding-left: 12px;
+    }
   }
   .columns {
     table {
@@ -16,6 +24,7 @@
 
     }
   }
+
   
   .headline {
     text-align: center;
@@ -33,8 +42,6 @@
   
   .box-wrapper {
     width: 264px;
-
-   
   }
   .article-img {
     height: auto;
@@ -80,7 +87,6 @@
     font-size: 16px;
     letter-spacing: 0.36px;
     line-height: 24px;
-    padding-left: 14px;
     font-weight: 600;
   }
 
