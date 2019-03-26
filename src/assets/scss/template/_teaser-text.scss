@@ -1,13 +1,21 @@
 .teaser-text {
   .row {
     .first {
-      padding-right: 13px;
+      padding-right: 0 !important;
       padding-bottom: 0;
+
+      th {
+        padding-right: 13px;
+      }
     }
 
     .last {
-      padding-left: 13px;
+      padding-left: 0 !important;
       padding-bottom: 0;
+
+      th {
+        padding-left: 13px;
+      }
     }
   }
 
